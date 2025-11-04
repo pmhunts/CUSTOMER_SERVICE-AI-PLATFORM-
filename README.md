@@ -43,7 +43,7 @@ Create a file named `.env` in the root directory of the project and add your Gem
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
 ```
 
-⚠️ **Security Warning**: The `.gitignore` file is set up to ignore the `.env` file, ensuring your key is never committed to GitHub.
+ **Security Warning**: The `.gitignore` file is set up to ignore the `.env` file, ensuring your key is never committed to GitHub.
 
 ### 5. Start the Backend Server
 
@@ -65,7 +65,7 @@ Open the `index.html` file directly in your web browser.
 
 Once the frontend is loaded, navigate to the "AI Assistant" tab to interact with the chatbot powered by your running server.
 
-## 💻 API Endpoints
+## API Endpoints
 
 The Express server exposes the following endpoints on `http://localhost:3000`:
 
@@ -75,7 +75,7 @@ The Express server exposes the following endpoints on `http://localhost:3000`:
 | `/health`   | GET    | Simple server health check.                                                              | N/A                     |
 | `/test-api` | GET    | Verifies connectivity with the Google Generative AI API.                                 | N/A                     |
 
-## 🧪 Testing Your Setup
+##  Testing Your Setup
 
 You can verify your API key and setup using the dedicated test script:
 
